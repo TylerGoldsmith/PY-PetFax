@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PetFax | Submit Facts</title>
+    <title>PetFax | Submission</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <div class="container">
         <H1>Submit Fax</H1>
         <div class="callout">
-            If you have some fun animal facts you'd like to share, please submit them! We may use them in the future.
+            If you have some fun animal facts you'd like to share, 
+            please submit them! We may use them in the future.
         </div>
         <div class="facts-container">
             <form action="/facts" method="POST">
